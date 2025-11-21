@@ -3,6 +3,6 @@ package com.example.amphibians.network
 import retrofit2.http.GET
 
 interface AmphibiaApiService {
-    @GET("Amphibians")
+    @GET("amphibians")
     suspend fun getAmphibiansData(): List<Amphibia>
 }
